@@ -18,7 +18,6 @@ const Projects = (props) => {
                         </div>
                     </div>
                 </div>
-                
             </div>
             <div className={classes['projects-box']}>
                 <div className={classes['projects-box-of-3']}>
@@ -34,7 +33,6 @@ const Projects = (props) => {
                         </div>
                     </div>
                 </div>
-                
             </div>
             <div className={classes['projects-box']}>
                 <div className={classes['projects-box-of-3']}>
@@ -50,7 +48,6 @@ const Projects = (props) => {
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
      );
