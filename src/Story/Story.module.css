@@ -1,0 +1,50 @@
+.section-story {
+    padding: 4rem 10rem;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+}
+
+.box-1-of-2 {
+    flex-basis: 50%;
+}
+
+.heading-secondary {
+    font-size: 2rem;
+    color: #BAC3B8;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.long-copy {
+    font-size: 1.3rem;
+    color: #BAC3B8;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 150%;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .section-story {
+        padding: 4rem 5rem;
+    }
+    .box {
+        display: block;
+    }
+    .story-box {
+        margin-bottom: 4rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .section-story {
+        padding: 0rem 2rem 4rem;
+    }
+    .long-copy {
+        font-size: 1.8rem;
+    }
+}
