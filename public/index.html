@@ -29,10 +29,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css"/>
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="cursor-outer"></div>
+    <div class="cursor-inner"></div>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -44,5 +47,16 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      const cursor = document.querySelector(".cursor-inner");
+      const cursor2 = document.querySelector(".cursor-outer");
+      document.addEventListener("mousemove", e=>{
+          cursor.style.top = e.pageY + "px";
+          cursor.style.left = e.pageX + "px";
+  
+          cursor2.style.top = e.pageY + "px";
+          cursor2.style.left = e.pageX + "px";
+      })
+  </script>
   </body>
 </html>
