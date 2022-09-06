@@ -1,3 +1,7 @@
+.heading-secondary {
+    display: none;
+}
+
 .projects-box {
     width: 100%;
     display: flex;
@@ -38,7 +42,7 @@
     font-size: 3rem;
     color: #BAC3B8;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 5px;
     transition: all 1s;
 }
 
@@ -86,4 +90,33 @@
     color: #141414;
 }
 
+@media only screen and (max-width: 1024px) {
+    .stack-tag {
+        margin-bottom: 1rem;
+    }
+    .project-links {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .heading-secondary {
+        display: block;
+        font-size: 2rem;
+        color: #BAC3B8;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+    .projects-box {
+        margin-bottom: 2rem;
+    }
+    .projects-box-of-3 {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .projects-box-of-3:hover {
+        transform: unset;
+    }
+}
 

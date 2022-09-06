@@ -3,6 +3,7 @@ import classes from './Projects.module.css';
 const Projects = (props) => {
     return ( 
         <div className={classes['projects']}>
+            <h3 className={classes['heading-secondary']}>Projects</h3>
             <div className={classes['projects-box']}>
                 <div className={classes['projects-box-of-3']}>
                     <h4 className={classes['stack-tag']}>Webpack JS API</h4>

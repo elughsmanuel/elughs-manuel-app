@@ -82,3 +82,55 @@
 .hsl-box-1-of-2 i {
     margin-right: 1rem;
 }
+
+@media only screen and (max-width: 1024px) {
+    .header {
+        padding: 5rem 0;
+    }
+    .header-description {
+        padding-left: 5rem;
+    }
+    .long-copy {
+        margin-bottom: 15rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        height: unset;
+        padding: 10rem 5rem 5rem;
+    }
+    .header-description {
+        padding-left: unset;
+    }
+    .box {
+        display: block;
+    }
+    .long-copy {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .header-social-links {
+        margin-bottom: 10rem;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    .header {
+        padding: 4rem 2rem;
+    }
+    .heading-sub {
+        width: 60%;
+    }
+    .long-copy {
+        font-size: 1.8rem;
+    }
+    .header-social-links {
+        width: 70%;
+    }
+    .hsl-box-1-of-2 a {
+        font-size: 2rem;
+    }
+    
+    
+}
