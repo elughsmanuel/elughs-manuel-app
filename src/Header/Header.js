@@ -1,4 +1,5 @@
 import classes from './Header.module.css';
+import Projects from './Projects/Projects';
 
 const Header = (props) => {
     return ( 
@@ -27,7 +28,7 @@ const Header = (props) => {
                     </div>
                 </div>
                 <div className={classes['box-1-of-2']}>
-                    B
+                    <Projects />
                 </div>
             </div>
         </header>

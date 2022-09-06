@@ -1,4 +1,6 @@
 .header {
+    width: 100%;
+    height: 100vh;
     padding: 10rem 0;
 }
 
@@ -18,7 +20,7 @@
 
 .heading-main {
     font-size: 6rem;
-    color: #FFF;
+    color: #BAC3B8;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 2rem;
@@ -30,7 +32,7 @@
 
 .heading-sub {
     font-size: 3rem;
-    color: #FFF;
+    color: #BAC3B8;
     font-weight: 200;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -68,7 +70,7 @@
 
 .hsl-box-1-of-2 a {
     font-size: 1.5rem;
-    color: #FFF;
+    color: #BAC3B8;
     font-weight: 300;
     text-decoration: none;
     transition: all 1s;
