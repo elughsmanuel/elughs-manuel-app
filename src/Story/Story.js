@@ -4,7 +4,7 @@ import classes from './Story.module.css';
 const Story = (props) => {
     return ( 
         <section className={classes['section-story']}>
-            <h2 className={classes['heading-secondary']}>Story / Skills</h2>
+            <h2 className={classes['heading-secondary']}>Story</h2>
             <div className={classes['box']}>
                 <div className={classes['box-1-of-2']}>
                     <div className={classes['story-box']}>
@@ -17,6 +17,7 @@ const Story = (props) => {
                     </div>
                 </div>
                 <div className={classes['box-1-of-2']}>
+                    <h2 className={classes['heading-secondary']}>Skills</h2>
                     <Skills />
                 </div>
             </div>
