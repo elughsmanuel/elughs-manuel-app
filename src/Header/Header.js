@@ -12,7 +12,7 @@ const Header = (props) => {
                             Front-End <span>Developer</span>
                             <i className="fa-solid fa-code"></i>
                         </h2>
-                        <p className={classes['long-copy']}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias inventore rem fuga aut, ratione nihil corrupti accusantium eos dolore ad maxime accusamus assumenda cupiditate unde numquam blanditiis nobis minus atque?</p>
+                        <p className={classes['long-copy']}>All the gods, all the heavens, all the hells are within you. - Joseph Campbell</p>
                         <div className={classes['header-social-links']}>
                             <div className={classes['hsl-box-1-of-2']}>
                                 <a href='https://www.linkedin.com/in/emmanuel-elugbaju'>
