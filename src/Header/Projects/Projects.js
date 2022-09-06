@@ -11,7 +11,7 @@ const Projects = (props) => {
                     <p className={classes['project-desc']}>Book App is a cataloging web application that allows individuals to search its database of IT, Programming and Computer Science books.</p>
                     <div className={classes['project-links']}>
                         <div className={classes['project-links-of-2']}>
-                            <a href='https://thebookapp.netlify.app/'><i className="fa-solid fa-desktop"></i>Live Demo</a>
+                            <a href='https://thebookapp.netlify.app/'><i className="fa-solid fa-link"></i>Website</a>
                         </div>
                         <div className={classes['project-links-of-2']}>
                             <a href='https://github.com/elughsmanuel/book-app'><i className="fa-brands fa-github"></i>Source Code</a>
@@ -26,7 +26,7 @@ const Projects = (props) => {
                     <p className={classes['project-desc']}>Calculate currency and foreign exchange rates with iEXCHANGE. Choose the currency and the amount to get the exchange rate.</p>
                     <div className={classes['project-links']}>
                         <div className={classes['project-links-of-2']}>
-                            <a href='https://iexchange.netlify.app/'><i className="fa-solid fa-desktop"></i>Live Demo</a>
+                            <a href='https://iexchange.netlify.app/'><i className="fa-solid fa-link"></i>Website</a>
                         </div>
                         <div className={classes['project-links-of-2']}>
                             <a href='https://github.com/elughsmanuel/iexchange'><i className="fa-brands fa-github"></i>Source Code</a>
@@ -41,7 +41,7 @@ const Projects = (props) => {
                     <p className={classes['project-desc']}>An assignment manager app where students can submit assignments and instructor can review the submitted assignments.</p>
                     <div className={classes['project-links']}>
                         <div className={classes['project-links-of-2']}>
-                            <a href='https://github.com/elughsmanuel/isubmit'><i className="fa-solid fa-desktop"></i>Live Demo</a>
+                            <a href='https://github.com/elughsmanuel/isubmit'><i className="fa-solid fa-link"></i>Website</a>
                         </div>
                         <div className={classes['project-links-of-2']}>
                             <a href='https://github.com/elughsmanuel/isubmit'><i className="fa-brands fa-github"></i>Source Code</a>

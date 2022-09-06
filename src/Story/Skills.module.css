@@ -8,7 +8,7 @@
     color: #BAC3B8;
     background-color: #212023;
     border-radius: 3px;
-    margin: 1rem;
+    margin: 5px;
     transition: all 1s;
 }
 
@@ -17,18 +17,6 @@
     background-color: #BAC3B8;
     transform: scale(.9);
     transform-origin: right;
-}
-
-.skill-item:first-child {
-    margin-top: unset;
-}
-
-.skill-item:nth-child(2) {
-    margin-top: unset;
-}
-
-.skill-item:nth-child(3) {
-    margin-top: unset;
 }
 
 .skill-item h3 {
@@ -47,8 +35,8 @@
 @media only screen and (max-width: 768px) {
     .skill-item {
         margin: unset;
-        margin-right: 2rem !important;
-        margin-bottom: 2rem !important;
+        margin-right: 1rem !important;
+        margin-bottom: 1rem !important;
     }
     .skill-item:hover {
         transform: unset;
