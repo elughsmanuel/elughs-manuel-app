@@ -9,11 +9,11 @@ const Story = (props) => {
                     <h2 className={classes['heading-secondary']}>Story</h2>
                     <div className={classes['story-box']}>
                         <p className={classes['long-copy']}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam accusantium repudiandae autem voluptatem provident quos animi commodi quibusdam quidem consectetur facere nemo, vero dolorum sunt, maxime voluptates. Culpa a consectetur maxime natus libero vitae iusto architecto deserunt nam? Alias suscipit vitae ut, adipisci voluptates facilis voluptas atque laborum autem deleniti!    
+                            I'm me! I'm a Software Developer that creates applications and I'm interested in client-side applications that leverage front-end technologies to create user interfaces. I use React JS as my main stack, and I'm high-spirited about JavaScript and its related technologies.
                         </p>  
                         <p className={classes['long-copy']}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident perspiciatis voluptates autem vero atque eligendi exercitationem voluptas consectetur quos reprehenderit, rem unde ex obcaecati. Sed ullam laudantium natus adipisci. Consectetur, dolorem earum eligendi vero neque aliquid illum sunt atque similique magnam voluptate a temporibus consequatur quia dolor minima inventore totam dolores voluptas, voluptatibus harum esse! Libero totam voluptatibus, omnis dicta facere rerum doloremque ipsa illo numquam magni quas. 
-                        </p> 
+                            I have developed and tested numerous websites and web applications using a variety of programming languages and tools to suit the user and corporate needs. To increase the efficiency of the application software, I concentrate on web accessibility, progressive web applications, search engine/web optimization, and data security during the development process. I completed my first research on Secure Authentication in the Internet of Things and have a B.Sc. in computer science. I have theoretical expertise in algorithm design and object-oriented programming thanks to my background in computer science.
+                        </p>
                     </div>
                 </div>
                 <div className={classes['box-1-of-2']}>
