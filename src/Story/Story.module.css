@@ -38,6 +38,10 @@
     margin-bottom: 2rem;
 }
 
+.long-copy span {
+    font-weight: 900;
+}
+
 @media only screen and (max-width: 768px) {
     .section-story {
         padding: 4rem 5rem;
