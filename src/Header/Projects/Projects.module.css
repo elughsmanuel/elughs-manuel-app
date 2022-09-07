@@ -102,11 +102,18 @@
 @media only screen and (max-width: 768px) {
     .heading-secondary {
         display: block;
-        font-size: 2rem;
+        font-size: 4rem;
         color: #BAC3B8;
         font-weight: 900;
-        text-transform: uppercase;
         margin-bottom: 2rem;
+    }
+    .heading-secondary::after {
+        display: block;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: #BAC3B8;
+        margin-top: 1rem;
     }
     .projects-box {
         margin-bottom: 2rem;

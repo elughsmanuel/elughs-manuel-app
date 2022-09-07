@@ -5,18 +5,28 @@
 .box {
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .box-1-of-2 {
-    flex-basis: 50%;
+    flex-basis: 49%;
 }
 
 .heading-secondary {
-    font-size: 2rem;
+    font-size: 4rem;
     color: #BAC3B8;
     font-weight: 900;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 2rem;
+}
+
+.heading-secondary::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #BAC3B8;
+    margin-top: 1rem;
 }
 
 .long-copy {
@@ -37,6 +47,9 @@
     }
     .story-box {
         margin-bottom: 4rem;
+    }
+    .heading-secondary-skills {
+        display: block;
     }
 }
 
