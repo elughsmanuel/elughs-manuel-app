@@ -82,6 +82,26 @@
     margin-left: 1rem;
 }
 
+.header-social-links {
+    width: 100%;
+}
+
+.header-social-links a {
+    font-size: 1.8rem;
+    color: #BAC3B8;
+    text-decoration: none;
+    margin-right: 4rem;
+    transition: all 1s;
+}
+
+.header-social-links a:hover {
+    color: #8E44AD;
+}
+
+.header-social-links a i {
+    margin-right: 1rem;
+}
+
 
 
 @media only screen and (max-width: 1024px) {
@@ -110,6 +130,9 @@
     .long-copy {
         width: 100%;
         margin-bottom: 2rem;
+    }
+    .header-social-links {
+        display: none;
     }
 }
 
