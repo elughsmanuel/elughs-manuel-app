@@ -14,6 +14,20 @@ body {
     color: #FFF;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #141414;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #3f1d4e;
+  }
+
 @media only screen and (max-width: 1024px) {
     html {
         font-size: 56.25%
