@@ -1,20 +1,20 @@
-.contact {
+.footer {
     width: 100%;
     padding: 4rem 0rem;
     text-align: center;
 }
 
-.contact-box {
+.footer-box {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.contact-box-1-of-2 {
+.footer-box-1-of-2 {
     flex-basis: 50%;
 }
 
-.contact-box-1-of-2 a {
+.footer-box-1-of-2 a {
     font-size: 1.8rem;
     color: #BAC3B8;
     text-decoration: none;
@@ -22,24 +22,24 @@
     transition: all 1s;
 }
 
-.contact-box-1-of-2 a:hover {
+.footer-box-1-of-2 a:hover {
     color: #8E44AD;
 }
 
-.contact-box-1-of-2 a i {
+.footer-box-1-of-2 a i {
     margin-right: 1rem;
 }
 
-.contact-box-1-of-2 p {
+.footer-box-1-of-2 p {
     font-size: 1.8rem;
     color: #403D42;
 }
 
 @media only screen and (max-width: 768px) {
-    .contact-box {
+    .footer-box {
         display: block;
     }
-    .contact-box-1-of-2 {
+    .footer-box-1-of-2 {
         flex-basis: 50%;
         margin-bottom: 2rem;
     }

@@ -16,11 +16,6 @@ const Header = (props) => {
                         <div className={classes['header-link']}>
                             <a href="mailto:elugbajuemmanueltobi@gmail.com">Send a message<i className="fa-solid fa-arrow-right"></i></a>
                         </div>
-                        <div className={classes['header-social-links']}>
-                            <a href='https://www.linkedin.com/in/emmanuel-elugbaju'><i className="fa-brands fa-linkedin"></i>LinkedIn</a>
-                            <a href='https://github.com/elughsmanuel'><i className="fa-brands fa-github"></i>GitHub</a>
-                            <a href='https://twitter.com/elughsm'><i className="fa-brands fa-twitter"></i>Twitter</a>
-                        </div> 
                     </div>
                 </div>
                 <div className={classes['box-1-of-2']}>

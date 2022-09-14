@@ -1,14 +1,16 @@
 import './App.css';
-import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Story from './Story/Story';
+import Fav from './Fav/Fav';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Story />
-      <Contact />
+      <Fav />
+      <Footer />
     </div>
   );
 }
