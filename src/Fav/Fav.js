@@ -22,7 +22,7 @@ const Fav = (props) => {
                             <li>Adekunle Gold</li>
                             <li>Fireboy DML</li>
                             <li>Justin Bieber</li>
-                            <li>Maverick City Music</li>
+                            <li>Khalid</li>
                         </ul>
                     </div>
                 </div>
