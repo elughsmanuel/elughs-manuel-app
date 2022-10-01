@@ -16,15 +16,6 @@ const Fav = (props) => {
                             <li><span>Predictably Irrational</span> - Dan Ariely</li>
                         </ul>
                     </div>
-                    <div className={classes['fav-content-box']}>
-                        <h3>Listening to ...</h3>
-                        <ul>
-                            <li>Adekunle Gold</li>
-                            <li>Fireboy DML</li>
-                            <li>Justin Bieber</li>
-                            <li>Khalid</li>
-                        </ul>
-                    </div>
                 </div>
                 <div className={classes['box-1-of-2']}>
                     <h2 className={classes['heading-secondary']}>Links</h2>
