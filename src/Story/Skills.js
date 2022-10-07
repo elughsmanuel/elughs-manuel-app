@@ -45,6 +45,9 @@ const Skills = (props) => {
         <h3>Jest</h3>
       </div>
       <div className={classes["skill-item"]}>
+        <h3>Webpack</h3>
+      </div>
+      <div className={classes["skill-item"]}>
         <h3>HTML5</h3>
       </div>
       <div className={classes["skill-item"]}>
