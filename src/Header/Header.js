@@ -9,7 +9,7 @@ const Header = (props) => {
                     <div className={classes['header-description']}>
                         <h1 className={classes['heading-main']}>Hello, I'm <br /> Emmanuel <span>Elugbaju</span></h1>
                         <h2 className={classes['heading-sub']}>
-                            Software <span>Developer</span>
+                            Software <span>Engineer</span>
                             <i className="fa-solid fa-code"></i>
                         </h2>
                         <p className={classes['long-copy']}>All the gods, all the heavens, all the hells are within you. - Joseph Campbell</p>
