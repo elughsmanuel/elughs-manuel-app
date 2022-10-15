@@ -9,7 +9,7 @@ const Story = (props) => {
                     <h2 className={classes['heading-secondary']}>Story</h2>
                     <div className={classes['story-box']}>
                         <p className={classes['long-copy']}>
-                            I'm me! I'm a <span>Software Developer</span> that creates applications and I'm interested in client-side applications that leverage front-end technologies to create user interfaces. I use <span>React JS</span> as my main stack, and I'm high-spirited about JavaScript and its related technologies.
+                            I'm me! I'm a <span>Software Engineer</span> that creates applications and I'm interested in client-side applications that leverage front-end technologies to create user interfaces. I use <span>React JS</span> as my main stack, and I'm high-spirited about JavaScript and its related technologies.
                         </p>  
                         <p className={classes['long-copy']}>
                             I have developed and tested numerous websites and web applications using a variety of programming languages and tools to suit the user and corporate needs. To increase the efficiency of the application software, I concentrate on web accessibility, progressive web applications, search engine/web optimization, and data security during the development process. I completed my first research on <span>Secure Authentication in the Internet of Things</span> and have a <span>B.Sc. in computer science</span>. I have theoretical expertise in algorithm design and object-oriented programming thanks to my background in computer science.
